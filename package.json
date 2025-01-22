@@ -1,0 +1,33 @@
+{
+  "name": "jukebox",
+  "version": "1.0.0",
+  "description": "Introducing Jukebox, the successor to Jukebox Mini! We've secured some initial tracks for our digital music platform, so now users can add tracks to their playlists.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LNeuman91/Jukebox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LNeuman91/Jukebox/issues"
+  },
+  "homepage": "https://github.com/LNeuman91/Jukebox#readme",
+  "devDependencies": {
+    "prisma": "^6.2.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
